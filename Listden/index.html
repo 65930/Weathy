@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weathy | Your forcast Reminder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="weather-container">
+        <h1>Weathy</h1>
+
+        <!-- City Input Section -->
+        <div>
+            <input type="text" id="city-input" placeholder="Enter city" />
+            <button onclick="fetchWeatherData()">Get Weather</button>
+        </div>
+
+        <!-- Weather Information -->
+        <p id="city-name"></p>
+        <p id="weather-description"></p>
+        <div id="temperature">
+            <p id="temp-value"></p>
+            <img id="weather-icon" src="" alt="Weather Icon" />
+        </div>
+
+        <!-- Time and Date Information -->
+        <p id="country-time"></p>
+        <p id="country-date"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<footer>2025 Weathy Cooperation</footer> 
